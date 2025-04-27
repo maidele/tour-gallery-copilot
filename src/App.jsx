@@ -41,9 +41,9 @@ function App() {
       <div>
         <h2>No tours left</h2>
         <button onClick={fetchTours}>Refresh</button>
-      </div>
+      </div>// If tours are empty, show a message and a button to refresh
     );
-  }
+  }// If tours are available, render the Gallery component
 
   return <Gallery tours={tours} setTours={setTours} />;
 }
