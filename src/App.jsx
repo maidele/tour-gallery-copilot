@@ -34,7 +34,7 @@ function App() {
 
   if (error) {
     return <h2>Error: {error}</h2>;
-  }
+  }// If tours are empty, show a message and a button to refresh
 
   if (tours.length === 0) {
     return (
