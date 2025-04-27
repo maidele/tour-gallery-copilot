@@ -13,6 +13,6 @@ function Gallery({ tours, setTours }) {
       ))}
     </div>
   );
-}
+}// Gallery component
 
 export default Gallery;
