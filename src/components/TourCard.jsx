@@ -14,6 +14,6 @@ function TourCard({ tour, removeTour }) {
       </div>
     </div>
   );
-}
+}// TourCard component
 
 export default TourCard;
